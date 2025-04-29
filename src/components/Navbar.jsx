@@ -7,7 +7,7 @@ function Navbar({ onNavClick }) {
                 id="main-navbar"
             >
                 <div className="container-fluid">
-                    <a href="#about" className="navbar-brand">
+                    <a href="#" className="navbar-brand">
                         Nicholas Capel
                     </a>
                     <button
@@ -28,7 +28,7 @@ function Navbar({ onNavClick }) {
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
                                 <a
-                                    href="#about"
+                                    href="#"
                                     className="nav-link"
                                     onClick={() => onNavClick('About')}
                                 >
@@ -37,7 +37,7 @@ function Navbar({ onNavClick }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    href="#projects"
+                                    href="#"
                                     className="nav-link"
                                     onClick={() => onNavClick('Projects')}
                                 >
@@ -46,7 +46,7 @@ function Navbar({ onNavClick }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    href="#Experience"
+                                    href="#"
                                     className="nav-link"
                                     onClick={() => onNavClick('Experience')}
                                 >
