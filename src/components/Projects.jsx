@@ -9,6 +9,75 @@ function Projects() {
             <div>
                 <ul className="list-group">
                     <li className="list-group-item project-bg">
+                        <h5>ELD Trip Planner</h5>
+                        <div className="row">
+                            <div className="col-md-9">
+                                <p>
+                                    ELD Trip Planner is a web application
+                                    designed to assist drivers in planning their
+                                    routes efficiently while adhering to Hours
+                                    of Service regulations. It combines
+                                    real-time mapping, route optimization, and
+                                    compliance tracking to help streamline trip
+                                    planning.
+                                </p>
+                                <p>
+                                    Technologies used:
+                                    <span>
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                            alt="Python"
+                                            title="Flask (Python)"
+                                            style={{ width: 24, height: 24 }}
+                                        />
+                                    </span>
+                                    <span>
+                                        <img
+                                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                            alt="React"
+                                            title="React"
+                                            style={{ width: 24, height: 24 }}
+                                        />
+                                    </span>
+                                    <span>
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Geopy_logo.svg/2560px-Geopy_logo.svg.png"
+                                            alt="Geopy"
+                                            title="Geopy"
+                                            style={{ width: 24, height: 24 }}
+                                        />
+                                    </span>
+                                    <span>
+                                        <img
+                                            src="https://seeklogo.com/images/M/mapbox-logo-7FC1D940D3-seeklogo.com.png"
+                                            alt="Mapbox"
+                                            title="Mapbox API"
+                                            style={{ width: 24, height: 24 }}
+                                        />
+                                    </span>
+                                </p>
+                            </div>
+                            <div className="col-md-3 text-md-right text-center align-self-end">
+                                <a
+                                    href="#"
+                                    className="btn btn-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Demo
+                                </a>
+                                <a
+                                    href="https://github.com/ncapel/eld-trip-planner"
+                                    className="btn btn-light btn-outline-dark"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="list-group-item project-bg">
                         <h5>
                             Vezeran: <i>The Shattered Realm</i>
                         </h5>
