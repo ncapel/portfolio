@@ -7,7 +7,11 @@ function Navbar({ onNavClick }) {
                 id="main-navbar"
             >
                 <div className="container-fluid">
-                    <a href="#" className="navbar-brand">
+                    <a
+                        href="#"
+                        className="navbar-brand"
+                        onClick={() => onNavClick('About')}
+                    >
                         Nicholas Capel
                     </a>
                     <button
