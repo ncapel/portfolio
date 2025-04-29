@@ -57,23 +57,29 @@ function Experience() {
                     </li>
                     <li className="list-group-item project-bg">
                         <h5>
-                            Front-End Developer - <i>Nuclear Fuel Services</i>
+                            Front-End Developer - <i>Schaeffer LLC</i>
                         </h5>
                         <p>September 2023 - September 2024</p>
                         <div className="row">
                             <div className="col-md-9">
                                 <p>
-                                    Developed an algorithm to automate monthly
-                                    report generation, improving efficiency and
-                                    streamlining data processing. Collaborated
-                                    with stakeholders to gather requirements and
-                                    enhance report performance. Applied Python
-                                    and data analysis methods to minimize manual
-                                    tasks and increase accuracy. Designed,
-                                    developed, tested, and deployed tailored
-                                    software solutions using various programming
-                                    languages and frameworks to meet
-                                    client-specific needs.
+                                    Developed advanced, high-performance web
+                                    applications using React.js, ensuring
+                                    pixel-perfect design and seamless user
+                                    experiences. Integrated MongoDB and
+                                    Express.js into multiple projects,
+                                    effectively utilizing the MERN stack to
+                                    build robust, scalable solutions.
+                                    Collaborated with cross-functional teams to
+                                    deliver high-quality web applications,
+                                    focusing on clear communication and
+                                    efficient problem-solving. Worked with
+                                    Node.js to support backend functionality,
+                                    ensuring smooth integration and optimal
+                                    performance across all systems. Integrated
+                                    third-party APIs, including Twitter, to
+                                    enhance client websites with dynamic,
+                                    real-time content.{' '}
                                 </p>
                             </div>
                         </div>
