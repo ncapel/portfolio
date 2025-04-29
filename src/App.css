@@ -1,3 +1,8 @@
+:root {
+    --color-primary: #000;
+    --color-background: #fff;
+}
+
 /* ! ------------------------------ Element Selectors ------------------------------ */
 
 * {
@@ -5,6 +10,11 @@
         'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow-x: hidden;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
 }
 
 h2 {
@@ -49,7 +59,7 @@ h2 {
     transition:
         transform 0.3s ease-in-out,
         background-color 0.3s ease-in-out;
-    background-color: #ffffff;
+    background-color: var(--color-background);
 }
 
 .sticky-nav.scrolled {
@@ -58,6 +68,14 @@ h2 {
 
 .sticky-nav.nav-hidden {
     transform: translateY(-100%);
+}
+
+.nav-link {
+    color: var(--color-primary);
+}
+
+.navbar-brand {
+    color: var(--color-primary);
 }
 
 .type {
@@ -84,16 +102,53 @@ h2 {
 }
 
 @keyframes c {
+
     0%,
     100% {
-        box-shadow: 5px 0 0 #0000;
+        box-shadow: 5px 0 0 #c7c3a9;
     }
+
     50% {
-        box-shadow: 5px 0 0 black;
+        box-shadow: 5px 0 0 #4b4b4e;
     }
 }
 
 /* ! ------------------------------ Media Queries ------------------------------ */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #c7c3a9;
+        --color-background: #4b4b4e;
+    }
+
+    .navbar-brand:hover {
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    .btn-dark {
+        background-color: var(--color-background);
+        color: var(--color-primary);
+    }
+
+    .btn-outline-dark {
+        background-color: var(--color-primary);
+        color: var(--color-background);
+    }
+
+    .btn-outline-dark:hover {
+        background-color: var(--color-background);
+        color: white;
+    }
+
+    .list-group-item {
+        background-color: var(--color-background);
+        color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+}
 
 /** Desktops) */
 @media only screen and (max-width: 1200px) {
@@ -107,9 +162,11 @@ h2 {
     .nav-wrapper {
         flex-direction: column;
     }
+
     .navbar-brand {
         margin-bottom: 10px;
     }
+
     .main {
         padding: 10px;
     }
@@ -120,17 +177,21 @@ h2 {
     .row {
         flex-direction: column;
     }
+
     .col-lg-8,
     .col-lg-4 {
         margin-bottom: 20px;
     }
+
     .img-fluid {
         width: 100%;
         height: auto;
     }
+
     .main {
         padding: 5px;
     }
+
     .type {
         font-size: 4vw;
     }
@@ -141,12 +202,15 @@ h2 {
     .navbar-toggler {
         margin-top: 10px;
     }
+
     .nav-link {
         font-size: 14px;
     }
+
     .main {
         padding: 0;
     }
+
     .type {
         font-size: 4vw;
     }
