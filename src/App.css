@@ -1,0 +1,153 @@
+/* ! ------------------------------ Element Selectors ------------------------------ */
+
+* {
+    font-family:
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ! ------------------------------ ID Selectors ------------------------------ */
+
+#prof-pic {
+    border-radius: 10px;
+    max-width: 70%;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/*  ! ------------------------------ Class Selectors ------------------------------ */
+
+.main {
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 5rem;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-nav {
+    margin: 0px auto;
+    width: 70%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition:
+        transform 0.3s ease-in-out,
+        background-color 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+
+.sticky-nav.scrolled {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sticky-nav.nav-hidden {
+    transform: translateY(-100%);
+}
+
+.type {
+    display: inline-flex;
+    padding-right: 5px;
+}
+
+.type span {
+    height: 1.2em;
+    width: 0%;
+    word-break: break-all;
+    overflow: hidden;
+    animation:
+        c 0.75s infinite steps(1),
+        t 3s steps(30) 1 forwards;
+}
+
+/* ! ------------------------------ Animations ------------------------------ */
+
+@keyframes t {
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes c {
+    0%,
+    100% {
+        box-shadow: 5px 0 0 #0000;
+    }
+    50% {
+        box-shadow: 5px 0 0 black;
+    }
+}
+
+/* ! ------------------------------ Media Queries ------------------------------ */
+
+/** Desktops) */
+@media only screen and (max-width: 1200px) {
+    .main {
+        padding: 20px;
+    }
+}
+
+/** Tablets / Med Devices */
+@media only screen and (max-width: 992px) {
+    .nav-wrapper {
+        flex-direction: column;
+    }
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+    .main {
+        padding: 10px;
+    }
+}
+
+/** Phones / Small Devices */
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-lg-8,
+    .col-lg-4 {
+        margin-bottom: 20px;
+    }
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    .main {
+        padding: 5px;
+    }
+    .type {
+        font-size: 4vw;
+    }
+}
+
+/** Extra Small Devices */
+@media only screen and (max-width: 480px) {
+    .navbar-toggler {
+        margin-top: 10px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    .main {
+        padding: 0;
+    }
+    .type {
+        font-size: 4vw;
+    }
+}
