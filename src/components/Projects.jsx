@@ -41,7 +41,7 @@ function Projects() {
                                     </span>
                                     <span>
                                         <img
-                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Geopy_logo.svg/2560px-Geopy_logo.svg.png"
+                                            src="https://geopy.readthedocs.io/en/stable/_images/logo-wide.png"
                                             alt="Geopy"
                                             title="Geopy"
                                             style={{ width: 24, height: 24 }}
@@ -49,9 +49,9 @@ function Projects() {
                                     </span>
                                     <span>
                                         <img
-                                            src="https://seeklogo.com/images/M/mapbox-logo-7FC1D940D3-seeklogo.com.png"
+                                            src="https://cdn.prod.website-files.com/6050a76fa6a633d5d54ae714/657a891adc421c2b490f39a8_img-logo-colors-1.png"
                                             alt="Mapbox"
-                                            title="Mapbox API"
+                                            title="Mapbox"
                                             style={{ width: 24, height: 24 }}
                                         />
                                     </span>
