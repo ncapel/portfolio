@@ -68,7 +68,7 @@ function Projects() {
                                 </a>
                                 <a
                                     href="https://github.com/ncapel/eld-trip-planner"
-                                    className="btn btn-light btn-outline-dark"
+                                    className="btn btn-light btn-outline-dark mx-2"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -138,7 +138,7 @@ function Projects() {
                                 </a>
                                 <a
                                     href="https://github.com/ncapel/vezeran"
-                                    className="btn btn-light btn-outline-dark"
+                                    className="btn btn-light btn-outline-dark mx-2"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -230,7 +230,7 @@ function Projects() {
                                 </a>
                                 <a
                                     href="https://github.com/ncapel/fields_wedding"
-                                    className="btn btn-light btn-outline-dark"
+                                    className="btn btn-light btn-outline-dark mx-2"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -281,7 +281,7 @@ function Projects() {
                                 </a>
                                 <a
                                     href="https://github.com/ncapel/smooth_rainbow_physgun"
-                                    className="btn btn-light btn-outline-dark"
+                                    className="btn btn-light btn-outline-dark mx-2"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -340,7 +340,7 @@ function Projects() {
                                 </a>
                                 <a
                                     href="https://github.com/ncapel/js-array-game"
-                                    className="btn btn-light btn-outline-dark"
+                                    className="btn btn-light btn-outline-dark mx-2"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -392,7 +392,7 @@ function Projects() {
                                 </a>
                                 <a
                                     href="https://github.com/ncapel/py-excel-script/blob/main/InDxLogic_Script.py"
-                                    className="btn btn-light btn-outline-dark"
+                                    className="btn btn-light btn-outline-dark mx-2"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
