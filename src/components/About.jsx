@@ -36,7 +36,7 @@ function About({ imageSrc }) {
                         <a
                             href="https://github.com/ncapel"
                             target="_blank"
-                            className="btn btn-light btn-outline-dark"
+                            className="btn btn-light btn-outline-dark mx-2"
                         >
                             View GitHub
                         </a>
