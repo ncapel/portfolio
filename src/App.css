@@ -80,6 +80,11 @@ h2 {
     color: var(--color-primary);
 }
 
+.tech-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
 .type {
     display: inline-flex;
     padding-right: 5px;
@@ -104,6 +109,7 @@ h2 {
 }
 
 @keyframes c {
+
     0%,
     100% {
         box-shadow: 5px 0 0 #0000;
@@ -151,6 +157,7 @@ h2 {
     }
 
     @keyframes c {
+
         0%,
         100% {
             box-shadow: 5px 0 0 #c7c3a9;
