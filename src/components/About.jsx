@@ -23,6 +23,26 @@ function About({ imageSrc }) {
                         take on new challenges in the ever-evolving world of
                         technology. Let's build something amazing together!
                     </p>
+
+                    <div className="row mt-auto">
+                        <div className="col">
+                            <a
+                                href="https://www.linkedin.com/in/nicholas-capel-0b65a6242/"
+                                target="_blank"
+                                className="btn btn-dark"
+                            >
+                                View LinkedIn
+                            </a>
+                            <a
+                                href="https://github.com/ncapel"
+                                target="_blank"
+                                className="btn btn-light btn-outline-dark mx-2"
+                            >
+                                View GitHub
+                            </a>
+                        </div>
+                    </div>
+
                     <div>
                         <h4 className="mt-5 mb-4">
                             Technological Proficiencies
@@ -297,26 +317,8 @@ function About({ imageSrc }) {
                                         className="tech-icon"
                                     />
                                 </span>
-                            </li>{' '}
+                            </li>
                         </ul>
-                    </div>
-                </div>
-                <div className="row mt-auto">
-                    <div className="col">
-                        <a
-                            href="https://www.linkedin.com/in/nicholas-capel-0b65a6242/"
-                            target="_blank"
-                            className="btn btn-dark"
-                        >
-                            View LinkedIn
-                        </a>
-                        <a
-                            href="https://github.com/ncapel"
-                            target="_blank"
-                            className="btn btn-light btn-outline-dark mx-2"
-                        >
-                            View GitHub
-                        </a>
                     </div>
                 </div>
             </div>
