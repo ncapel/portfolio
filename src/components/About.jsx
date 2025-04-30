@@ -23,9 +23,8 @@ function About({ imageSrc }) {
                         take on new challenges in the ever-evolving world of
                         technology. Let's build something amazing together!
                     </p>
-
-                    <div className="row mt-auto">
-                        <div className="col">
+                    <div className="row">
+                        <div className="d-flex gap-2 flex-wrap">
                             <a
                                 href="https://www.linkedin.com/in/nicholas-capel-0b65a6242/"
                                 target="_blank"
@@ -36,7 +35,7 @@ function About({ imageSrc }) {
                             <a
                                 href="https://github.com/ncapel"
                                 target="_blank"
-                                className="btn btn-light btn-outline-dark mx-2"
+                                className="btn btn-light btn-outline-dark"
                             >
                                 View GitHub
                             </a>
@@ -47,7 +46,7 @@ function About({ imageSrc }) {
                         <h4 className="mt-5 mb-4">
                             Technological Proficiencies
                         </h4>
-                        <ul className="list-group d-flex flex-row flex-wrap mb-4 gap-2">
+                        <ul className="list-group d-flex flex-row flex-wrap gap-2">
                             <li>
                                 <span>
                                     <img
