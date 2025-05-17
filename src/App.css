@@ -123,8 +123,9 @@ h2 {
 /* ! ------------------------------ Media Queries ------------------------------ */
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-primary: #c7c3a9;
-        --color-background: #4b4b4e;
+        --color-primary: #f8f9fa;
+        --color-background: #212529;
+        ;
     }
 
     .navbar-brand:hover {
@@ -136,8 +137,8 @@ h2 {
     }
 
     .btn-dark {
-        background-color: var(--color-background);
-        color: var(--color-primary);
+        background-color: var(--color-primary);
+        color: var(--color-background);
     }
 
     .btn-outline-dark {
@@ -146,8 +147,8 @@ h2 {
     }
 
     .btn-outline-dark:hover {
-        background-color: var(--color-background);
-        color: white;
+        background-color: #424649;
+        color: var(--color-primary);
     }
 
     .list-group-item {
